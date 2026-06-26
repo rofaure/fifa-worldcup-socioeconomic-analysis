@@ -36,3 +36,66 @@ Sports analysts, football federations, and journalists covering the intersection
 ## Extras
 - Countries ranking by year : https://www.kaggle.com/datasets/cashncarry/fifaworldranking?select=fifa_ranking-2024-06-20.csv
 - Weather for each match
+
+## Project Structure
+fifa-worldcup-socioeconomic-analysis/
+
+│
+
+├── data/
+
+│   ├── bronze/          # raw ingested data + source metadata
+
+│   ├── silver/          # cleaned, typed, standardized data
+
+│   │   └── rejected/    # rejected/quarantine rows
+
+│   └── gold/            # reporting-ready tables
+
+│
+
+├── notebooks/           # one notebook per PBI
+
+├── sql/                 # Gold table creation + validation queries
+
+├── tests/               # validation checks per layer
+
+├── docs/                # architecture, sources, runbook, gold model
+
+├── powerbi/             # report screenshots
+
+│
+
+├── .env.example
+
+├── requirements.txt
+
+└── BACKLOG.md
+
+## Architecture
+
+`Source → Bronze → Silver → Gold → Power BI`
+
+- **Bronze**: raw data as-is, with ingestion metadata
+- **Silver**: cleaned, typed, standardized, join keys validated
+- **Gold**: star schema ready for Power BI reporting
+
+## Setup
+
+```bash
+git clone https://github.com/TON_USERNAME/fifa-worldcup-socioeconomic-analysis.git
+cd fifa-worldcup-socioeconomic-analysis
+python -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
+cp .env.example .env  # fill in your credentials
+```
+
+## Team
+
+| Member | Responsibility |
+|--------|----------------|
+| Member A | Bronze/Silver WC match results + Gold fact table |
+| Member B | Bronze/Silver Population + dim_country |
+| Member C | Bronze/Silver GDP + Power BI |
+| Member D | Join key standardization + validation + dim_tournament |
