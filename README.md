@@ -12,11 +12,11 @@ produce a clean, analysis-ready Gold layer.
 
 ## Data Sources
 
-| Source | Provider | Description | Join Key |
-|--------|----------|-------------|----------|
-| WC Match Results | Kaggle (evangower) | Match-level results for every World Cup 1998–2022: teams, scores, stages, host country. Grain: one row per match. | `team_name`, `year` |
-| Population by country | World Bank | Total population per country per year. | `iso_code`, `year` |
-| GDP per capita by country | World Bank | Economic output per person per country per year. | `iso_code`, `year` |
+| Source | Provider | Description | Join Key | Link Source |
+|--------|----------|-------------|----------|-------------|
+| WC Match Results | Kaggle (evangower) | Match-level results for every World Cup 1998–2022: teams, scores, stages, host country. Grain: one row per match. | `team_name`, `year` | https://www.kaggle.com/datasets/evangower/fifa-world-cup |
+| Population by country | World Bank | Total population per country per year. | `iso_code`, `year` | https://data.worldbank.org/indicator/SP.POP.TOTL?utm_source=chatgpt.com |
+| GDP per capita by country | World Bank | Economic output per person per country per year. | `iso_code`, `year` | https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?utm_source=chatgpt.com |
 
 ## Business Questions
 
