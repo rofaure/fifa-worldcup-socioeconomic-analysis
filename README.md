@@ -24,6 +24,10 @@ produce a clean, analysis-ready Gold layer.
 - Do larger populations produce stronger national teams, or do small countries overperform?
 - Which confederations (UEFA, CONMEBOL, etc.) dominate, and does that correlate with regional economic development?
 - How has the balance of power shifted across the 1998–2022 editions — are emerging economies closing the gap?
+- Is there any relationship between a country's population and its World Cup performance?
+- How have the World Cup results changed over time?
+- which countries are improving the most their level ? Is it linked with population or GDP growth ?
+- which are the best football teams ever ?
 
 ## Target Audience
 
