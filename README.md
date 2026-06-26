@@ -32,3 +32,7 @@ produce a clean, analysis-ready Gold layer.
 ## Target Audience
 
 Sports analysts, football federations, and journalists covering the intersection of sport and socioeconomics.
+
+## Extras
+- Countries ranking by year : https://www.kaggle.com/datasets/cashncarry/fifaworldranking?select=fifa_ranking-2024-06-20.csv
+- Weather for each match
