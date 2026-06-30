@@ -111,6 +111,59 @@ This file is the audit trail for each pipeline run.
 
 ---
 
+## Silver/Bronze Cross-Check Notebook
+
+`notebooks/silver_bronze_check.ipynb` runs **10 quality topics** across all Bronze and Silver outputs after each pipeline run.
+
+### Datasets checked
+
+| Key | Path |
+|-----|------|
+| `bronze_matches` | `data/bronze/bronze_wc_matches.csv` |
+| `bronze_pop` | `data/bronze/bronze_pop.csv` |
+| `bronze_gdp` | `data/bronze/bronze_gdp.csv` |
+| `silver_worldcup` | `data/silver/silver_wc_output.csv` |
+| `silver_socio` | `data/silver/valid_socioeconomics.csv` |
+| `rejected_socio` | `data/silver/rejected/rejected_socioeconomics.csv` |
+
+### Topics covered
+
+**1. File availability** — confirms each expected file exists before loading.
+
+**2. Row and column counts** — shape of each dataset. Computes retention % for each pipeline:
+- `worldcup`: Bronze matches (scoped to 1998–2018) → Silver rows
+- `socioeconomics`: valid + rejected total → valid rows
+
+**3. Column audit** — lists all columns per dataset to catch unexpected additions or renames.
+
+**4. Year coverage** — min year, max year, distinct year count per dataset. Expected: 1998–2018 (21 years) for all Silver outputs.
+
+**5. Null values** — counts columns with nulls and total null cells. Surfaces top 5 null columns per dataset.
+
+**6. Duplicate checks** — full-row duplicates + business key duplicates.
+
+| Dataset | Business key |
+|---------|-------------|
+| `bronze_matches` | `year`, `stage`, `home_team`, `away_team` |
+| `silver_worldcup` | `year`, `stage`, `home_team`, `away_team` |
+| `silver_socio` | `country_code`, `year` |
+| `rejected_socio` | `country_code`, `year` |
+
+**7. Business rule checks**
+
+| Dataset | Check |
+|---------|-------|
+| `silver_worldcup` | `home_score >= 0`, `away_score >= 0`, `date_clean` parsed |
+| `silver_socio` | `population > 0`, `gdp_per_capita_usd > 0`, `country_code` length = 3, `year` between 1998–2018 |
+
+**8. Rejected row summary** — breakdown of `review_reason` counts and share % from `rejected_socioeconomics.csv`.
+
+**9. Country alignment** — compares host countries and team countries from `silver_worldcup` against `silver_socio`. Reports any team or host country present in WC data but missing from socioeconomics.
+
+**10. Metadata quality** — checks presence of `source_name`, `load_timestamp`, `run_id` per dataset, and counts timestamp parse failures and null run IDs.
+
+---
+
 ## WC Team Name Corrections
 
 During cross-source validation, 5 team names present in the WC dataset were not found in `silver_socioeconomics`. Investigation revealed 4 typos and 1 data exclusion:
