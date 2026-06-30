@@ -73,6 +73,7 @@ Some rows are excluded by design — not quality failures.
 | World Bank aggregate rows (`WLD`, `EUU`, `LCN`, etc.) | `silver_population_gdp` Cell 11 | Not countries — regional/income aggregates |
 | Years outside 1998–2018 | `silver_population_gdp` Cell 12 | Project scope: World Cup editions 1998–2018 only |
 | "United Kingdom" row | `silver_population_gdp` Cell 14 | Replaced by England / Wales / Scotland / Northern Ireland (see below) |
+| North Korea | Silver join | `MISSING_GDP` in `silver_socioeconomics` — World Bank has no GDP data for North Korea. Participated in 1 WC edition only (2010); insufficient data for meaningful socioeconomic analysis. Excluded from global analysis. |
 
 ---
 
@@ -107,19 +108,6 @@ It contains:
 - Rejection breakdown by `review_reason`
 
 This file is the audit trail for each pipeline run.
-
----
-
-## Correction Logic
-
-Rejected rows are **not corrected automatically**. The pipeline follows a quarantine-and-document approach:
-
-1. Invalid rows are written to `rejected_*.csv` with their `review_reason`
-2. A human reviews the rejected file after each run
-3. If the source data can be fixed (e.g. a missing value found in another source), the correction is applied in the Bronze layer and the Silver notebook is re-run
-4. If no correction is possible, the exclusion is documented here and in `validation_summary.txt`
-
-> Corrections are never applied directly to Silver outputs. All fixes go through Bronze → Silver re-run to maintain layer integrity.
 
 ---
 
