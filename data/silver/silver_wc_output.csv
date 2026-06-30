@@ -1,0 +1,385 @@
+year,country,city,stage,home_team,away_team,home_score,away_score,winning_team,losing_team,date_clean,source_name,load_timestamp_clean,run_id
+1998,France,Saint-Denis,Group A,Brazil,Scotland,2,1,Brazil,Scotland,1998-06-10,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Montpellier,Group A,Morocco,Norway,2,2,,,1998-06-10,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Toulouse,Group B,Cameroon,Austria,1,1,,,1998-06-11,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Bordeaux,Group B,Italy,Chile,2,2,,,1998-06-11,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Marseille,Group C,France,South Africa,3,0,France,South Africa,1998-06-12,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Montpellier,Group D,Paraguay,Bulgaria,0,0,,,1998-06-12,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Lens,Group C,Saudi Arabia,Denmark,0,1,Denmark,Saudi Arabia,1998-06-12,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Lyon,Group E,South Korea,Mexico,1,3,Mexico,South Korea,1998-06-13,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Saint-Denis,Group E,Netherlands,Belgium,0,0,,,1998-06-13,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Nantes,Group D,Spain,Nigeria,2,3,Nigeria,Spain,1998-06-13,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Toulouse,Group H,Argentina,Japan,1,0,Argentina,Japan,1998-06-14,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Lens,Group H,Jamaica,Croatia,1,3,Croatia,Jamaica,1998-06-14,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Saint-Étienne,Group F,FR Yugoslavia,Iran,1,0,FR Yugoslavia,Iran,1998-06-14,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Marseille,Group G,England,Tunisia,2,0,England,Tunisia,1998-06-15,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Paris,Group F,Germany,United States,2,0,Germany,United States,1998-06-15,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Lyon,Group G,Romania,Colombia,1,0,Romania,Colombia,1998-06-15,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Nantes,Group A,Brazil,Morocco,3,0,Brazil,Morocco,1998-06-16,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Bordeaux,Group A,Scotland,Norway,1,1,,,1998-06-16,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Saint-Étienne,Group B,Chile,Austria,1,1,,,1998-06-17,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Montpellier,Group B,Italy,Cameroon,3,0,Italy,Cameroon,1998-06-17,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Saint-Denis,Group C,France,Saudi Arabia,4,0,France,Saudi Arabia,1998-06-18,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Toulouse,Group C,South Africa,Denmark,1,1,,,1998-06-18,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Paris,Group D,Nigeria,Bulgaria,1,0,Nigeria,Bulgaria,1998-06-19,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Saint-Étienne,Group D,Spain,Paraguay,0,0,,,1998-06-19,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Bordeaux,Group E,Belgium,Mexico,2,2,,,1998-06-20,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Nantes,Group H,Japan,Croatia,0,1,Croatia,Japan,1998-06-20,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Marseille,Group E,Netherlands,South Korea,5,0,Netherlands,South Korea,1998-06-20,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Paris,Group H,Argentina,Jamaica,5,0,Argentina,Jamaica,1998-06-21,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Lens,Group F,Germany,FR Yugoslavia,2,2,,,1998-06-21,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Lyon,Group F,United States,Iran,1,2,Iran,United States,1998-06-21,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Montpellier,Group G,Colombia,Tunisia,1,0,Colombia,Tunisia,1998-06-22,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Toulouse,Group G,Romania,England,2,1,Romania,England,1998-06-22,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Marseille,Group A,Brazil,Norway,1,2,Norway,Brazil,1998-06-23,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Nantes,Group B,Chile,Cameroon,1,1,,,1998-06-23,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Saint-Denis,Group B,Italy,Austria,2,1,Italy,Austria,1998-06-23,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Saint-Étienne,Group A,Scotland,Morocco,0,3,Morocco,Scotland,1998-06-23,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Lyon,Group C,France,Denmark,2,1,France,Denmark,1998-06-24,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Toulouse,Group D,Nigeria,Paraguay,1,3,Paraguay,Nigeria,1998-06-24,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Bordeaux,Group C,South Africa,Saudi Arabia,2,2,,,1998-06-24,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Lens,Group D,Spain,Bulgaria,6,1,Spain,Bulgaria,1998-06-24,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Paris,Group E,Belgium,South Korea,1,1,,,1998-06-25,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Montpellier,Group F,Germany,Iran,2,0,Germany,Iran,1998-06-25,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Saint-Étienne,Group E,Netherlands,Mexico,2,2,,,1998-06-25,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Nantes,Group F,United States,Serbia,0,1,Serbia,United States,1998-06-25,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Bordeaux,Group H,Argentina,Croatia,1,0,Argentina,Croatia,1998-06-26,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Lens,Group G,Colombia,England,0,2,England,Colombia,1998-06-26,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Lyon,Group H,Japan,Jamaica,1,2,Jamaica,Japan,1998-06-26,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Saint-Denis,Group G,Romania,Tunisia,1,1,,,1998-06-26,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Paris,Round of 16,Brazil,Chile,4,1,Brazil,Chile,1998-06-27,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Marseille,Round of 16,Italy,Norway,1,0,Italy,Norway,1998-06-27,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Lens,Round of 16,France,Paraguay,1,0,France,Paraguay,1998-06-28,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Saint-Denis,Round of 16,Nigeria,Denmark,1,4,Denmark,Nigeria,1998-06-28,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Montpellier,Round of 16,Germany,Mexico,2,1,Germany,Mexico,1998-06-29,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Toulouse,Round of 16,Netherlands,FR Yugoslavia,2,1,Netherlands,FR Yugoslavia,1998-06-29,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Saint-Étienne,Round of 16,Argentina,England,2,2,Argentina,England,1998-06-30,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Bordeaux,Round of 16,Romania,Croatia,0,1,Croatia,Romania,1998-06-30,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Nantes,Quarterfinals,Brazil,Denmark,3,2,Brazil,Denmark,1998-07-03,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Saint-Denis,Quarterfinals,France,Italy,0,0,France,Italy,1998-07-03,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Lyon,Quarterfinals,Germany,Croatia,0,3,Croatia,Germany,1998-07-04,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Marseille,Quarterfinals,Netherlands,Argentina,2,1,Netherlands,Argentina,1998-07-04,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Marseille,Semifinals,Brazil,Netherlands,1,1,Brazil,Netherlands,1998-07-07,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Saint-Denis,Semifinals,France,Croatia,2,1,France,Croatia,1998-07-08,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Paris,Third place,Netherlands,Croatia,1,2,Croatia,Netherlands,1998-07-11,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+1998,France,Saint-Denis,Final,France,Brazil,3,0,France,Brazil,1998-07-12,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,South Korea,Seoul,Group A,France,Senegal,0,1,Senegal,France,2002-05-31,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,Japan,Sapporo,Group E,Germany,Saudi Arabia,8,0,Germany,Saudi Arabia,2002-06-01,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,Japan,Niigata,Group E,Republic of Ireland,Cameroon,1,1,,,2002-06-01,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,South Korea,Ulsan,Group A,Uruguay,Denmark,1,2,Denmark,Uruguay,2002-06-01,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,Japan,Kashima,Group F,Argentina,Nigeria,1,0,Argentina,Nigeria,2002-06-02,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,Japan,Saitama,Group F,England,Sweden,1,1,,,2002-06-02,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,South Korea,Busan,Group B,Paraguay,South Africa,2,2,,,2002-06-02,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,South Korea,Gwangju,Group B,Spain,Slovenia,3,1,Spain,Slovenia,2002-06-02,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,South Korea,Ulsan,Group C,Brazil,Turkey,2,1,Brazil,Turkey,2002-06-03,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,Japan,Niigata,Group G,Croatia,Mexico,0,1,Mexico,Croatia,2002-06-03,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,Japan,Sapporo,Group G,Italy,Ecuador,2,0,Italy,Ecuador,2002-06-03,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,South Korea,Gwangju,Group C,China PR,Costa Rica,0,2,Costa Rica,China PR,2002-06-04,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,Japan,Saitama,Group H,Japan,Belgium,2,2,,,2002-06-04,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,South Korea,Busan,Group D,South Korea,Poland,2,0,South Korea,Poland,2002-06-04,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,Japan,Kashima,Group E,Germany,Republic of Ireland,1,1,,,2002-06-05,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,Japan,Kobe,Group H,Russia,Tunisia,2,0,Russia,Tunisia,2002-06-05,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,South Korea,Suwon,Group D,United States,Portugal,3,2,United States,Portugal,2002-06-05,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,Japan,Saitama,Group E,Cameroon,Saudi Arabia,1,0,Cameroon,Saudi Arabia,2002-06-06,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,South Korea,Daegu,Group A,Denmark,Senegal,1,1,,,2002-06-06,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,South Korea,Busan,Group A,France,Uruguay,0,0,,,2002-06-06,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,Japan,Sapporo,Group F,Argentina,England,0,1,England,Argentina,2002-06-07,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,South Korea,Jeonju,Group B,Spain,Paraguay,3,1,Spain,Paraguay,2002-06-07,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,Japan,Kobe,Group F,Sweden,Nigeria,2,1,Sweden,Nigeria,2002-06-07,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,South Korea,Seogwipo,Group C,Brazil,China PR,4,0,Brazil,China PR,2002-06-08,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,Japan,Kashima,Group G,Italy,Croatia,1,2,Croatia,Italy,2002-06-08,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,South Korea,Daegu,Group B,South Africa,Slovenia,1,0,South Africa,Slovenia,2002-06-08,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,South Korea,Incheon,Group C,Costa Rica,Turkey,1,1,,,2002-06-09,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,Japan,Yokohama,Group H,Japan,Russia,1,0,Japan,Russia,2002-06-09,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,Japan,Rifu,Group G,Mexico,Ecuador,2,1,Mexico,Ecuador,2002-06-09,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,South Korea,Daegu,Group D,South Korea,United States,1,1,,,2002-06-10,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,South Korea,Jeonju,Group D,Portugal,Poland,4,0,Portugal,Poland,2002-06-10,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,Japan,Ōita,Group H,Tunisia,Belgium,1,1,,,2002-06-10,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,Japan,Fukuroi,Group E,Cameroon,Germany,0,2,Germany,Cameroon,2002-06-11,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,South Korea,Incheon,Group A,Denmark,France,2,0,Denmark,France,2002-06-11,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,Japan,Yokohama,Group E,Saudi Arabia,Republic of Ireland,0,3,Republic of Ireland,Saudi Arabia,2002-06-11,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,South Korea,Suwon,Group A,Senegal,Uruguay,3,3,,,2002-06-11,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,Japan,Osaka,Group F,Nigeria,England,0,0,,,2002-06-12,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,South Korea,Seogwipo,Group B,Slovenia,Paraguay,1,3,Paraguay,Slovenia,2002-06-12,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,South Korea,Daejeon,Group B,South Africa,Spain,2,3,Spain,South Africa,2002-06-12,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,Japan,Rifu,Group F,Sweden,Argentina,1,1,,,2002-06-12,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,South Korea,Suwon,Group C,Costa Rica,Brazil,2,5,Brazil,Costa Rica,2002-06-13,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,Japan,Yokohama,Group G,Ecuador,Croatia,1,0,Ecuador,Croatia,2002-06-13,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,Japan,Ōita,Group G,Mexico,Italy,1,1,,,2002-06-13,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,South Korea,Seoul,Group C,Turkey,China PR,3,0,Turkey,China PR,2002-06-13,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,Japan,Fukuroi,Group H,Belgium,Russia,3,2,Belgium,Russia,2002-06-14,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,Japan,Osaka,Group H,Japan,Tunisia,2,0,Japan,Tunisia,2002-06-14,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,South Korea,Incheon,Group D,South Korea,Portugal,1,0,South Korea,Portugal,2002-06-14,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,South Korea,Daejeon,Group D,Poland,United States,3,1,Poland,United States,2002-06-14,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,Japan,Niigata,Round of 16,Denmark,England,0,3,England,Denmark,2002-06-15,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,South Korea,Seogwipo,Round of 16,Germany,Paraguay,1,0,Germany,Paraguay,2002-06-15,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,South Korea,Suwon,Round of 16,Spain,Republic of Ireland,1,1,Spain,Republic of Ireland,2002-06-16,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,Japan,Ōita,Round of 16,Sweden,Senegal,1,2,Senegal,Sweden,2002-06-16,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,Japan,Kobe,Round of 16,Brazil,Belgium,2,0,Brazil,Belgium,2002-06-17,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,South Korea,Jeonju,Round of 16,Mexico,United States,0,2,United States,Mexico,2002-06-17,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,Japan,Rifu,Round of 16,Japan,Turkey,0,1,Turkey,Japan,2002-06-18,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,South Korea,Daejeon,Round of 16,South Korea,Italy,2,1,South Korea,Italy,2002-06-18,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,Japan,Fukuroi,Quarterfinals,England,Brazil,1,2,Brazil,England,2002-06-21,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,South Korea,Ulsan,Quarterfinals,Germany,United States,1,0,Germany,United States,2002-06-21,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,South Korea,Gwangju,Quarterfinals,South Korea,Spain,0,0,South Korea,Spain,2002-06-22,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,Japan,Osaka,Quarterfinals,Senegal,Turkey,0,1,Turkey,Senegal,2002-06-22,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,South Korea,Seoul,Semifinals,South Korea,Germany,0,1,Germany,South Korea,2002-06-25,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,Japan,Saitama,Semifinals,Brazil,Turkey,1,0,Brazil,Turkey,2002-06-26,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,South Korea,Daegu,Third place,South Korea,Turkey,2,3,Turkey,South Korea,2002-06-29,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2002,Japan,Yokohama,Final,Germany,Brazil,0,2,Brazil,Germany,2002-06-30,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Munich,Group A,Germany,Costa Rica,4,2,Germany,Costa Rica,2006-06-09,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Gelsenkirchen,Group A,Poland,Ecuador,0,2,Ecuador,Poland,2006-06-09,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Hamburg,Group C,Argentina,Ivory Coast,2,1,Argentina,Ivory Coast,2006-06-10,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Frankfurt am Main,Group B,England,Paraguay,1,0,England,Paraguay,2006-06-10,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Dortmund,Group B,Trinidad and Tobago,Sweden,0,0,,,2006-06-10,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Cologne,Group D,Angola,Portugal,0,1,Portugal,Angola,2006-06-11,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Nuremberg,Group D,Mexico,Iran,3,1,Mexico,Iran,2006-06-11,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Leipzig,Group C,Serbia,Netherlands,0,1,Netherlands,Serbia,2006-06-11,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Kaiserslautern,Group F,Australia,Japan,3,1,Australia,Japan,2006-06-12,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Hanover,Group E,Italy,Ghana,2,0,Italy,Ghana,2006-06-12,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Gelsenkirchen,Group E,United States,Czech Republic,0,3,Czech Republic,United States,2006-06-12,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Berlin,Group F,Brazil,Croatia,1,0,Brazil,Croatia,2006-06-13,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Stuttgart,Group G,France,Switzerland,0,0,,,2006-06-13,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Frankfurt am Main,Group G,South Korea,Togo,2,1,South Korea,Togo,2006-06-13,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Dortmund,Group A,Germany,Poland,1,0,Germany,Poland,2006-06-14,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Leipzig,Group H,Spain,Ukraine,4,0,Spain,Ukraine,2006-06-14,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Munich,Group H,Tunisia,Saudi Arabia,2,2,,,2006-06-14,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Hamburg,Group A,Ecuador,Costa Rica,3,0,Ecuador,Costa Rica,2006-06-15,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Nuremberg,Group B,England,Trinidad and Tobago,2,0,England,Trinidad and Tobago,2006-06-15,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Berlin,Group B,Sweden,Paraguay,1,0,Sweden,Paraguay,2006-06-15,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Gelsenkirchen,Group C,Argentina,Serbia,6,0,Argentina,Serbia,2006-06-16,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Hanover,Group D,Mexico,Angola,0,0,,,2006-06-16,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Stuttgart,Group C,Netherlands,Ivory Coast,2,1,Netherlands,Ivory Coast,2006-06-16,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Cologne,Group E,Czech Republic,Ghana,0,2,Ghana,Czech Republic,2006-06-17,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Kaiserslautern,Group E,Italy,United States,1,1,,,2006-06-17,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Frankfurt am Main,Group D,Portugal,Iran,2,0,Portugal,Iran,2006-06-17,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Munich,Group F,Brazil,Australia,2,0,Brazil,Australia,2006-06-18,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Leipzig,Group G,France,South Korea,1,1,,,2006-06-18,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Nuremberg,Group F,Japan,Croatia,0,0,,,2006-06-18,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Hamburg,Group H,Saudi Arabia,Ukraine,0,4,Ukraine,Saudi Arabia,2006-06-19,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Stuttgart,Group H,Spain,Tunisia,3,1,Spain,Tunisia,2006-06-19,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Dortmund,Group G,Togo,Switzerland,0,2,Switzerland,Togo,2006-06-19,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Hanover,Group A,Costa Rica,Poland,1,2,Poland,Costa Rica,2006-06-20,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Berlin,Group A,Germany,Ecuador,3,0,Germany,Ecuador,2006-06-20,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Kaiserslautern,Group B,Paraguay,Trinidad and Tobago,2,0,Paraguay,Trinidad and Tobago,2006-06-20,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Cologne,Group B,Sweden,England,2,2,,,2006-06-20,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Leipzig,Group D,Iran,Angola,1,1,,,2006-06-21,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Munich,Group C,Ivory Coast,Serbia,3,2,Ivory Coast,Serbia,2006-06-21,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Frankfurt am Main,Group C,Netherlands,Argentina,0,0,,,2006-06-21,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Gelsenkirchen,Group D,Portugal,Mexico,2,1,Portugal,Mexico,2006-06-21,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Stuttgart,Group F,Croatia,Australia,2,2,,,2006-06-22,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Hamburg,Group E,Czech Republic,Italy,0,2,Italy,Czech Republic,2006-06-22,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Nuremberg,Group E,Ghana,United States,2,1,Ghana,United States,2006-06-22,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Dortmund,Group F,Japan,Brazil,1,4,Brazil,Japan,2006-06-22,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Kaiserslautern,Group H,Saudi Arabia,Spain,0,1,Spain,Saudi Arabia,2006-06-23,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Hanover,Group H,Switzerland,South Korea,2,0,Switzerland,South Korea,2006-06-23,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Cologne,Group G,Togo,France,0,2,France,Togo,2006-06-23,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Berlin,Group G,Ukraine,Tunisia,1,0,Ukraine,Tunisia,2006-06-23,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Leipzig,Round of 16,Argentina,Mexico,2,1,Argentina,Mexico,2006-06-24,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Munich,Round of 16,Germany,Sweden,2,0,Germany,Sweden,2006-06-24,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Stuttgart,Round of 16,England,Ecuador,1,0,England,Ecuador,2006-06-25,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Nuremberg,Round of 16,Portugal,Netherlands,1,0,Portugal,Netherlands,2006-06-25,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Kaiserslautern,Round of 16,Italy,Australia,1,0,Italy,Australia,2006-06-26,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Cologne,Round of 16,Switzerland,Ukraine,0,0,Ukraine,Switzerland,2006-06-26,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Dortmund,Round of 16,Brazil,Ghana,3,0,Brazil,Ghana,2006-06-27,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Hanover,Round of 16,Spain,France,1,3,France,Spain,2006-06-27,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Berlin,Quarterfinals,Germany,Argentina,1,1,Germany,Argentina,2006-06-30,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Hamburg,Quarterfinals,Italy,Ukraine,3,0,Italy,Ukraine,2006-06-30,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Frankfurt am Main,Quarterfinals,Brazil,France,0,1,France,Brazil,2006-07-01,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Gelsenkirchen,Quarterfinals,England,Portugal,0,0,Portagul,England,2006-07-01,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Dortmund,Semifinals,Germany,Italy,0,2,Italy,Germany,2006-07-04,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Munich,Semifinals,Portugal,France,0,1,France,Portugal,2006-07-05,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Stuttgart,Third place,Germany,Portugal,3,1,Germany,Portugal,2006-07-08,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2006,Germany,Berlin,Final,Italy,France,1,1,Italy,France,2006-07-09,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Johannesburg,Group A,South Africa,Mexico,1,1,,,2010-06-11,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Cape Town,Group A,Uruguay,France,0,0,,,2010-06-11,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Johannesburg,Group B,Argentina,Nigeria,1,0,Argentina,Nigeria,2010-06-12,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Rustenburg,Group C,England,United States,1,1,,,2010-06-12,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Port Elizabeth,Group B,South Korea,Greece,2,0,South Korea,Greece,2010-06-12,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Polokwane,Group C,Algeria,Slovenia,0,1,Slovenia,Algeria,2010-06-13,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Durban,Group D,Germany,Australia,4,0,Germany,Australia,2010-06-13,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Pretoria,Group D,Serbia,Ghana,0,1,Ghana,Serbia,2010-06-13,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Cape Town,Group F,Italy,Paraguay,1,1,,,2010-06-14,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Bloemfontein,Group E,Japan,Cameroon,1,0,Japan,Cameroon,2010-06-14,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Johannesburg,Group E,Netherlands,Denmark,2,0,Netherlands,Denmark,2010-06-14,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Johannesburg,Group G,Brazil,North Korea,2,1,Brazil,North Korea,2010-06-15,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Port Elizabeth,Group G,Ivory Coast,Portugal,0,0,,,2010-06-15,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Rustenburg,Group F,New Zealand,Slovakia,1,1,,,2010-06-15,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Nelspruit,Group H,Honduras,Chile,0,1,Chile,Honduras,2010-06-16,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Pretoria,Group A,South Africa,Uruguay,0,3,Uruguay,South Africa,2010-06-16,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Durban,Group H,Spain,Switzerland,0,1,Switzerland,Spain,2010-06-16,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Johannesburg,Group B,Argentina,South Korea,4,1,Argentina,South Korea,2010-06-17,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Polokwane,Group A,France,Mexico,0,2,Mexico,France,2010-06-17,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Bloemfontein,Group B,Greece,Nigeria,2,1,Greece,Nigeria,2010-06-17,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Cape Town,Group C,England,Algeria,0,0,,,2010-06-18,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Port Elizabeth,Group D,Germany,Serbia,0,1,Serbia,Germany,2010-06-18,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Johannesburg,Group C,Slovenia,United States,2,2,,,2010-06-18,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Pretoria,Group E,Cameroon,Denmark,1,2,Denmark,Cameroon,2010-06-19,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Rustenburg,Group D,Ghana,Australia,1,1,,,2010-06-19,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Durban,Group E,Netherlands,Japan,1,0,Netherlands,Japan,2010-06-19,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Johannesburg,Group G,Brazil,Ivory Coast,3,1,Brazil,Ivory Coast,2010-06-20,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Nelspruit,Group F,Italy,New Zealand,1,1,,,2010-06-20,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Bloemfontein,Group F,Slovakia,Paraguay,0,2,Paraguay,Slovakia,2010-06-20,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Port Elizabeth,Group H,Chile,Switzerland,1,0,Chile,Switzerland,2010-06-21,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Cape Town,Group G,Portugal,North Korea,7,0,Portugal,North Korea,2010-06-21,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Johannesburg,Group H,Spain,Honduras,2,0,Spain,Honduras,2010-06-21,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Polokwane,Group B,Greece,Argentina,0,2,Argentina,Greece,2010-06-22,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Rustenburg,Group A,Mexico,Uruguay,0,1,Uruguay,Mexico,2010-06-22,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Durban,Group B,Nigeria,South Korea,2,2,,,2010-06-22,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Bloemfontein,Group A,South Africa,France,2,1,South Africa,France,2010-06-22,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Nelspruit,Group D,Australia,Serbia,2,1,Australia,Serbia,2010-06-23,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Johannesburg,Group D,Ghana,Germany,0,1,Germany,Ghana,2010-06-23,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Port Elizabeth,Group C,Slovenia,England,0,1,England,Slovenia,2010-06-23,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Pretoria,Group C,United States,Algeria,1,0,United States,Algeria,2010-06-23,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Cape Town,Group E,Cameroon,Netherlands,1,2,Netherlands,Cameroon,2010-06-24,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Rustenburg,Group E,Denmark,Japan,1,3,Japan,Denmark,2010-06-24,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Polokwane,Group F,Paraguay,New Zealand,0,0,,,2010-06-24,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Johannesburg,Group F,Slovakia,Italy,3,2,Slovakia,Italy,2010-06-24,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Pretoria,Group H,Chile,Spain,1,2,Spain,Chile,2010-06-25,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Nelspruit,Group G,North Korea,Ivory Coast,0,3,Ivory Coast,North Korea,2010-06-25,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Durban,Group G,Portugal,Brazil,0,0,,,2010-06-25,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Bloemfontein,Group H,Switzerland,Honduras,0,0,,,2010-06-25,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Port Elizabeth,Round of 16,Uruguay,South Korea,2,1,Uruguay,South Korea,2010-06-26,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Rustenburg,Round of 16,United States,Ghana,1,2,Ghana,United States,2010-06-26,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Johannesburg,Round of 16,Argentina,Mexico,3,1,Argentina,Mexico,2010-06-27,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Bloemfontein,Round of 16,Germany,England,4,1,Germany,England,2010-06-27,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Johannesburg,Round of 16,Brazil,Chile,3,0,Brazil,Chile,2010-06-28,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Durban,Round of 16,Netherlands,Slovakia,2,1,Netherlands,Slovakia,2010-06-28,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Pretoria,Round of 16,Paraguay,Japan,0,0,Paraguay,Japan,2010-06-29,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Cape Town,Round of 16,Spain,Portugal,1,0,Spain,Portugal,2010-06-29,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Port Elizabeth,Quarterfinals,Netherlands,Brazil,2,1,Netherlands,Brazil,2010-07-02,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Johannesburg,Quarterfinals,Uruguay,Ghana,1,1,Uruguay,Ghana,2010-07-02,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Cape Town,Quarterfinals,Argentina,Germany,0,4,Germany,Argentina,2010-07-03,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Johannesburg,Quarterfinals,Paraguay,Spain,0,1,Spain,Paraguay,2010-07-03,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Cape Town,Semifinals,Uruguay,Netherlands,2,3,Netherlands,Uruguay,2010-07-06,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Durban,Semifinals,Germany,Spain,0,1,Spain,Germany,2010-07-07,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Port Elizabeth,Third place,Uruguay,Germany,2,3,Germany,Uruguay,2010-07-10,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2010,South Africa,Johannesburg,Final,Netherlands,Spain,0,1,Spain,Netherlands,2010-07-11,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,São Paulo,Group A,Brazil,Croatia,3,1,Brazil,Croatia,2014-06-12,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,Cuiabá,Group B,Chile,Australia,3,1,Chile,Australia,2014-06-13,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,Natal,Group A,Mexico,Cameroon,1,0,Mexico,Cameroon,2014-06-13,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,Salvador,Group B,Spain,Netherlands,1,5,Netherlands,Spain,2014-06-13,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,Belo Horizonte,Group C,Colombia,Greece,3,0,Colombia,Greece,2014-06-14,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,Manaus,Group D,England,Italy,1,2,Italy,England,2014-06-14,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,Recife,Group C,Ivory Coast,Japan,2,1,Ivory Coast,Japan,2014-06-14,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,Fortaleza,Group D,Uruguay,Costa Rica,1,3,Costa Rica,Uruguay,2014-06-14,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,Rio de Janeiro,Group F,Argentina,Bosnia and Herzegovina,2,1,Argentina,Bosnia and Herzegovina,2014-06-15,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,Porto Alegre,Group E,France,Honduras,3,0,France,Honduras,2014-06-15,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,Brasília,Group E,Switzerland,Ecuador,2,1,Switzerland,Ecuador,2014-06-15,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,Salvador,Group G,Germany,Portugal,4,0,Germany,Portugal,2014-06-16,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,Natal,Group G,Ghana,United States,1,2,United States,Ghana,2014-06-16,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,Curitiba,Group F,Iran,Nigeria,0,0,,,2014-06-16,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,Belo Horizonte,Group H,Belgium,Algeria,2,1,Belgium,Algeria,2014-06-17,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,Fortaleza,Group A,Brazil,Mexico,0,0,,,2014-06-17,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,Cuiabá,Group H,Russia,South Korea,1,1,,,2014-06-17,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,Curitiba,Group B,Australia,Netherlands,2,3,Netherlands,Australia,2014-06-18,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,Manaus,Group A,Cameroon,Croatia,0,4,Croatia,Cameroon,2014-06-18,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,Rio de Janeiro,Group B,Spain,Chile,0,2,Chile,Spain,2014-06-18,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,Brasília,Group C,Colombia,Ivory Coast,2,1,Colombia,Ivory Coast,2014-06-19,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,Natal,Group C,Japan,Greece,0,0,,,2014-06-19,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,São Paulo,Group D,Uruguay,England,2,1,Uruguay,England,2014-06-19,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,Curitiba,Group E,Honduras,Ecuador,1,2,Ecuador,Honduras,2014-06-20,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,Recife,Group D,Italy,Costa Rica,0,1,Costa Rica,Italy,2014-06-20,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,Salvador,Group E,Switzerland,France,2,5,France,Switzerland,2014-06-20,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,Belo Horizonte,Group F,Argentina,Iran,1,0,Argentina,Iran,2014-06-21,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,Fortaleza,Group G,Germany,Ghana,2,2,,,2014-06-21,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,Cuiabá,Group F,Nigeria,Bosnia and Herzegovina,1,0,Nigeria,Bosnia and Herzegovina,2014-06-21,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,Rio de Janeiro,Group H,Belgium,Russia,1,0,Belgium,Russia,2014-06-22,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,Porto Alegre,Group H,South Korea,Algeria,2,4,Algeria,South Korea,2014-06-22,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,Manaus,Group G,United States,Portugal,2,2,,,2014-06-22,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,Curitiba,Group B,Australia,Spain,0,3,Spain,Australia,2014-06-23,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,Brasília,Group A,Brazil,Cameroon,4,1,Brazil,Cameroon,2014-06-23,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,Recife,Group A,Croatia,Mexico,1,3,Mexico,Croatia,2014-06-23,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,São Paulo,Group B,Netherlands,Chile,2,0,Netherlands,Chile,2014-06-23,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,Belo Horizonte,Group D,Costa Rica,England,0,0,,,2014-06-24,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,Fortaleza,Group C,Greece,Ivory Coast,2,1,Greece,Ivory Coast,2014-06-24,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,Natal,Group D,Italy,Uruguay,0,1,Uruguay,Italy,2014-06-24,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,Cuiabá,Group C,Japan,Colombia,1,4,Colombia,Japan,2014-06-24,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,Salvador,Group F,Bosnia and Herzegovina,Iran,3,1,Bosnia and Herzegovina,Iran,2014-06-25,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,Rio de Janeiro,Group E,Ecuador,France,0,0,,,2014-06-25,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,Manaus,Group E,Honduras,Switzerland,0,3,Switzerland,Honduras,2014-06-25,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,Porto Alegre,Group F,Nigeria,Argentina,2,3,Argentina,Nigeria,2014-06-25,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,Curitiba,Group H,Algeria,Russia,1,1,,,2014-06-26,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,São Paulo,Group H,South Korea,Belgium,0,1,Belgium,South Korea,2014-06-26,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,Brasília,Group G,Portugal,Ghana,2,1,Portugal,Ghana,2014-06-26,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,Recife,Group G,United States,Germany,0,1,Germany,United States,2014-06-26,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,Belo Horizonte,Round of 16,Brazil,Chile,1,1,Brazil,Chile,2014-06-28,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,Rio de Janeiro,Round of 16,Colombia,Uruguay,2,0,Colombia,Uruguay,2014-06-28,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,Recife,Round of 16,Costa Rica,Greece,1,1,Costa Rica,Greece,2014-06-29,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,Fortaleza,Round of 16,Netherlands,Mexico,2,1,Netherlands,Mexico,2014-06-29,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,Brasília,Round of 16,France,Nigeria,2,0,France,Nigeria,2014-06-30,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,Porto Alegre,Round of 16,Germany,Algeria,2,1,Germany,Algeria,2014-06-30,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,São Paulo,Round of 16,Argentina,Switzerland,1,0,Argentina,Switzerland,2014-07-01,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,Salvador,Round of 16,Belgium,United States,2,1,Belgium,United States,2014-07-01,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,Fortaleza,Quarterfinals,Brazil,Colombia,2,1,Brazil,Colombia,2014-07-04,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,Rio de Janeiro,Quarterfinals,France,Germany,0,1,Germany,France,2014-07-04,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,Brasília,Quarterfinals,Argentina,Belgium,1,0,Argentina,Belgium,2014-07-05,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,Salvador,Quarterfinals,Netherlands,Costa Rica,0,0,Netherlands,Costa Rica,2014-07-05,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,Belo Horizonte,Semifinals,Brazil,Germany,1,7,Germany,Brazil,2014-07-08,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,São Paulo,Semifinals,Netherlands,Argentina,0,0,Argentina,Netherlands,2014-07-09,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,Brasília,Third place,Brazil,Netherlands,0,3,Netherlands,Brazil,2014-07-12,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2014,Brazil,Rio de Janeiro,Final,Germany,Argentina,1,0,Germany,Argentina,2014-07-13,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Moscow,Group A,Russia,Saudi Arabia,5,0,Russia,Saudi Arabia,2018-06-14,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Ekaterinburg,Group A,Egypt,Uruguay,0,1,Uruguay,Egypt,2018-06-15,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Saint Petersburg,Group B,Morocco,Iran,0,1,Iran,Morocco,2018-06-15,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Sochi,Group B,Portugal,Spain,3,3,,,2018-06-15,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Kazan,Group C,France,Australia,2,1,France,Australia,2018-06-16,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Moscow,Group D,Argentina,Iceland,1,1,,,2018-06-16,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Saransk,Group C,Peru,Denmark,0,1,Denmark,Peru,2018-06-16,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Kaliningrad,Group D,Croatia,Nigeria,2,0,Croatia,Nigeria,2018-06-16,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Samara,Group E,Costa Rica,Serbia,0,1,Serbia,Costa Rica,2018-06-17,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Moscow,Group F,Germany,Mexico,0,1,Mexico,Germany,2018-06-17,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Rostov-on-Don,Group E,Brazil,Switzerland,1,1,,,2018-06-17,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Nizhny Novgorod,Group F,Sweden,South Korea,1,0,Sweden,South Korea,2018-06-18,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Sochi,Group G,Belgium,Panama,3,0,Belgium,Panama,2018-06-18,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Volgograd,Group G,Tunisia,England,1,2,England,Tunisia,2018-06-18,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Saransk,Group H,Colombia,Japan,1,2,Japan,Colombia,2018-06-19,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Moscow,Group H,Poland,Senegal,1,2,Senegal,Poland,2018-06-19,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Saint Petersburg,Group A,Russia,Egypt,3,1,Russia,Egypt,2018-06-19,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Moscow,Group B,Portugal,Morocco,1,0,Portugal,Morocco,2018-06-20,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Rostov-on-Don,Group A,Uruguay,Saudi Arabia,1,0,Uruguay,Saudi Arabia,2018-06-20,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Kazan,Group B,Iran,Spain,0,1,Spain,Iran,2018-06-20,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Samara,Group C,Denmark,Australia,1,1,,,2018-06-21,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Ekaterinburg,Group C,France,Peru,1,0,France,Peru,2018-06-21,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Nizhny Novgorod,Group D,Argentina,Croatia,0,3,Croatia,Argentina,2018-06-21,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Saint Petersburg,Group E,Brazil,Costa Rica,2,0,Brazil,Costa Rica,2018-06-22,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Volgograd,Group D,Nigeria,Iceland,2,0,Nigeria,Iceland,2018-06-22,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Kaliningrad,Group E,Serbia,Switzerland,1,2,Switzerland,Serbia,2018-06-22,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Moscow,Group G,Belgium,Tunisia,5,2,Belgium,Tunisia,2018-06-23,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Rostov-on-Don,Group F,South Korea,Mexico,1,2,Mexico,South Korea,2018-06-23,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Sochi,Group F,Germany,Sweden,2,1,Germany,Sweden,2018-06-23,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Nizhny Novgorod,Group G,England,Panama,6,1,England,Panama,2018-06-24,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Ekaterinburg,Group H,Japan,Senegal,2,2,,,2018-06-24,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Kazan,Group H,Poland,Colombia,0,3,Colombia,Poland,2018-06-24,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Samara,Group A,Russia,Uruguay,0,3,Uruguay,Russia,2018-06-25,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Volgograd,Group A,Saudi Arabia,Egypt,2,1,Saudi Arabia,Egypt,2018-06-25,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Kaliningrad,Group B,Spain,Morocco,2,2,,,2018-06-25,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Saransk,Group B,Iran,Portugal,1,1,,,2018-06-25,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Sochi,Group C,Australia,Peru,0,2,Peru,Australia,2018-06-26,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Moscow,Group C,Denmark,France,0,0,,,2018-06-26,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Saint Petersburg,Group D,Nigeria,Argentina,1,2,Argentina,Nigeria,2018-06-26,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Rostov-on-Don,Group D ,Iceland,Croatia,1,2,Croatia,Iceland,2018-06-26,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Kazan,Group F,South Korea,Germany,2,0,South Korea,Germany,2018-06-27,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Ekaterinburg,Group F,Mexico,Sweden,0,3,Sweden,Mexico,2018-06-27,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Moscow,Group E,Serbia,Brazil,0,2,Brazil,Serbia,2018-06-27,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Nizhny Novgorod,Group E,Switzerland,Costa Rica,2,2,,,2018-06-27,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Volgograd,Group H,Japan,Poland,0,1,Poland,Japan,2018-06-28,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Samara,Group H,Senegal,Colombia,0,1,Colombia,Senegal,2018-06-28,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Saransk,Group G,Panama,Tunisia,1,2,Tunisia,Panama,2018-06-28,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Kaliningrad,Group G,England,Belgium,0,1,Belgium,England,2018-06-28,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Kazan,Round of 16,France,Argentina,4,3,France,Argentina,2018-06-30,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Sochi,Round of 16,Uruguay,Portugal,2,1,Uruguay,Portugal,2018-06-30,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Moscow,Round of 16,Russia,Spain,1,1,Russia,Spain,2018-07-01,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Nizhny Novgorod,Round of 16,Croatia,Denmark,1,1,Croatia,Denmark,2018-07-01,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Samara,Round of 16,Brazil,Mexico,2,0,Brazil,Mexico,2018-07-02,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Rostov-on-Don,Round of 16,Belgium,Japan,3,2,Belgium,Japan,2018-07-02,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Saint Petersburg,Round of 16,Sweden,Switzerland,1,0,Sweden,Switzerland,2018-07-03,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Moscow,Round of 16,Colombia,England,1,1,England,Columbia,2018-07-03,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Nizhny Novgorod,Quarterfinals,Uruguay,France,0,2,France,Uruguay,2018-07-06,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Kazan,Quarterfinals,Brazil,Belgium,1,2,Belgium,Brazil,2018-07-06,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Samara,Quarterfinals,Sweden,England,0,2,England,Sweden,2018-07-07,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Sochi,Quarterfinals,Russia,Croatia,2,2,Croatia,Russia,2018-07-07,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Saint Petersburg,Semifinals,France,Belgium,1,0,France,Belgium,2018-07-10,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Moscow,Semifinals,Croatia,England,2,1,Croatia,England,2018-07-11,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Saint Petersburg,Third place,Belgium,England,2,0,Belgium,England,2018-07-14,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
+2018,Russia,Moscow,Final,France,Croatia,4,2,France,Croatia,2018-07-15,fifa_world_cup_archive,2026-06-29 17:08:30,46875d21-433c-4d67-be89-7b8b640985fe
