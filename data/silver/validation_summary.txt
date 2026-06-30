@@ -1,0 +1,12 @@
+=== Silver Validation Summary — Socioeconomics ===
+Run timestamp : 2026-06-30 09:24:40
+
+POP bronze rows loaded       : 266
+GDP bronze rows loaded       : 266
+Rows after unpivot + merge   : 5334
+Valid rows written           : 5158
+Rejected rows                : 176
+
+--- Rejection breakdown ---
+  MISSING_GDP                    : 155
+  MISSING_POPULATION             : 21
