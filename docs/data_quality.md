@@ -120,3 +120,32 @@ Rejected rows are **not corrected automatically**. The pipeline follows a quaran
 4. If no correction is possible, the exclusion is documented here and in `validation_summary.txt`
 
 > Corrections are never applied directly to Silver outputs. All fixes go through Bronze → Silver re-run to maintain layer integrity.
+
+---
+
+## WC Team Name Corrections
+
+During cross-source validation, 5 team names present in the WC dataset were not found in `silver_socioeconomics`. Investigation revealed 4 typos and 1 data exclusion:
+
+| WC dataset name | Issue | Resolution |
+|----------------|-------|------------|
+| `China PR` | Non-standard name | Corrected to `China` in `country_mapping.json` |
+| `Columbia` | Spelling error | Corrected to `Colombia` in `country_mapping.json` |
+| `Portagul` | Spelling error | Corrected to `Portugal` in `country_mapping.json` |
+| `FR Yugoslavia` | Dissolved country | Mapped to `Serbia` (World Bank successor state) in `country_mapping.json` |
+| `North Korea` | Missing GDP data | Documented exclusion — see Known Exclusions above |
+
+Corrections are applied in `data/utils/country_mapping.json` and handled in `silver_wc_matches.ipynb`.
+
+---
+
+## Correction Logic
+
+Rejected rows are **not corrected automatically**. The pipeline follows a quarantine-and-document approach:
+
+1. Invalid rows are written to `rejected_*.csv` with their `review_reason`
+2. A human reviews the rejected file after each run
+3. If the source data can be fixed (e.g. a missing value found in another source), the correction is applied in the Bronze layer and the Silver notebook is re-run
+4. If no correction is possible, the exclusion is documented here and in `validation_summary.txt`
+
+> Corrections are never applied directly to Silver outputs. All fixes go through Bronze → Silver re-run to maintain layer integrity.
