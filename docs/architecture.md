@@ -74,7 +74,7 @@
 │                       data/gold/                                    │
 │                                                                     │
 │  FactTable                                                          │
-│  Grain: 1 row = 1 team × 1 match                                   │
+│  Grain: 1 row = 1 team × 1 match                                    │
 │  - match_country_id (PK)                                            │
 │  - date_id (FK → DimDate)                                           │
 │  - tournament_id (FK → DimTournament)                               │
@@ -84,33 +84,33 @@
 │  - stage, role (home/away), result                                  │
 │  - performance_stars (1–6, see StageStars below)                    │
 │  - match_city, stadium                                              │
-│  - is_host (1/0 — team is host country of tournament)              │
+│  - is_host (1/0 — team is host country of tournament)               │
 │  - population, gdp_per_capita_usd (from silver_socioeconomics)      │
 │                                                                     │
 │  DimDate                         DimTournament                      │
-│  - date_id (PK)                  - tournament_id (PK)              │
-│  - year                          - year                            │
-│  - decade                        - edition_name                    │
-│  - tournament_year (boolean)     - host_country                    │
-│                                  - nb_teams                        │
-│                                  - nb_matches                      │
+│  - date_id (PK)                  - tournament_id (PK)               │
+│  - year                          - year                             │
+│  - decade                        - edition_name                     │
+│  - tournament_year (boolean)     - host_country                     │
+│                                  - nb_teams                         │
+│                                  - nb_matches                       │
 │                                                                     │
-│  DimCountry                                                         │
-│  - country_id (PK)                                                  │
+│  DimLocation                                                        │
+│  - location_id (PK)                                                 │ 
 │  - country_name                                                     │
 │  - confederation (UEFA/CONMEBOL/etc.)                               │
 │  - region                                                           │
 │  - capital_city                                                     │
 │                                                                     │
-│  StageStars (column in FactTable)                      │
-│  Group Stage (eliminated) → 1 ⭐                                   │
+│  StageStars (column in FactTable)                                   │
+│  Group Stage (eliminated) → 1 ⭐                                    │
 │  Round of 16              → 2 ⭐⭐                                 │
 │  Quarter-final            → 3 ⭐⭐⭐                              │
-│  Semi-final               → 4 ⭐⭐⭐⭐                            │
-│  Runner-up                → 5 ⭐⭐⭐⭐⭐                          │
-│  Winner                   → 6 ⭐⭐⭐⭐⭐⭐                       │
-│                                                                     │
-│  Reporting-ready star schema. Answers all business questions.       │
+│  Semi-final               → 4 ⭐⭐⭐⭐                           │
+│  Runner-up                → 5 ⭐⭐⭐⭐⭐                         │
+│  Winner                   → 6 ⭐⭐⭐⭐⭐⭐                      │
+│                                                                    │
+│  Reporting-ready star schema. Answers all business questions.      │
 └────────────────────────────────┬────────────────────────────────────┘
                                  │
                                  ▼
