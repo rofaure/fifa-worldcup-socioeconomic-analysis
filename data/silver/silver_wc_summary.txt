@@ -1,0 +1,4 @@
+   metric_name  metric_value         explanation
+bronze_wc_rows           900 original, all years
+silver_wc_rows           384  filtered 1998-2018
+  rejected_row             0    nothing rejected
