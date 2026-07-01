@@ -54,12 +54,16 @@ BEGIN
     WHERE dc.country_name != 'North Korea' AND (population IS NULL OR population <= 0)
     ORDER BY team_country_id;
 
+    DECLARE @population_issues INT = @@ROWCOUNT;
+
     -- 2) gdp must be positive
     SELECT match_country_id, year_id, dc.country_name, stage, gdp_per_capita_usd
     FROM fact_wc_match fm
     JOIN dim_country dc ON fm.team_country_id = dc.country_id
     WHERE dc.country_name != 'North Korea' AND (gdp_per_capita_usd IS NULL OR gdp_per_capita_usd <= 0)
     ORDER BY team_country_id;
+
+    DECLARE @gdp_issues INT = @@ROWCOUNT;
 
     -- 3) performance_stars between 1 and 6 (inclusive)
     SELECT match_country_id, year_id, team_country_id, stage, performance_stars
@@ -76,15 +80,25 @@ BEGIN
          OR is_host IS NULL
     ORDER BY team_country_id;
 
-    -- 5) Optional cross-check: all team_ids referenced in fact_wc_matches exist in dim_country
+    -- 5) Cross-check: all team_ids referenced in fact_wc_matches exist in dim_country
     SELECT DISTINCT fm.team_country_id
     FROM fact_wc_match fm
     LEFT JOIN dim_country dc ON fm.team_country_id = dc.country_id
     WHERE dc.country_id IS NULL;
 
+    -- 6) Each tournament_id belongs to only one year_id
+    SELECT *
+    FROM (
+        SELECT tournament_id, RANK() OVER(PARTITION BY tournament_id ORDER BY year_id) as year_rank
+        FROM fact_wc_match
+    )t
+    WHERE year_rank > 1
+
+    -- 7) 6 unique tournament_id
+    SELECT COUNT(DISTINCT tournament_id) FROM fact_wc_match
+ 
+
     -- Validation Summary
-    DECLARE @population_issues INT = (SELECT COUNT(*) FROM fact_wc_match WHERE population IS NULL OR population <= 0);
-    DECLARE @gdp_issues INT = (SELECT COUNT(*) FROM fact_wc_match WHERE gdp_per_capita_usd IS NULL OR gdp_per_capita_usd <= 0);
     DECLARE @performance_issues INT = (SELECT COUNT(*) FROM fact_wc_match WHERE performance_stars IS NULL OR performance_stars < 1 OR performance_stars > 6);
     DECLARE @is_host_issues INT = (SELECT COUNT(*) FROM fact_wc_match WHERE is_host NOT IN (0,1) OR is_host IS NULL);
     DECLARE @team_exists_issues INT = (SELECT COUNT(DISTINCT fm.team_country_id) FROM fact_wc_match fm LEFT JOIN dim_country dc ON fm.team_country_id = dc.country_id WHERE dc.country_id IS NULL);
