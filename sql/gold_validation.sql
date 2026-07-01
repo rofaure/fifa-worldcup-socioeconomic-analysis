@@ -94,15 +94,16 @@ BEGIN
     )t
     WHERE year_rank > 1
 
+    DECLARE @tournament_year_issue INT = @@ROWCOUNT;
+
     -- 7) 6 unique tournament_id
-    SELECT COUNT(DISTINCT tournament_id) FROM fact_wc_match
- 
+    DECLARE @unique_tournament_id INT = (SELECT COUNT(DISTINCT tournament_id) FROM fact_wc_match);
 
     -- Validation Summary
     DECLARE @performance_issues INT = (SELECT COUNT(*) FROM fact_wc_match WHERE performance_stars IS NULL OR performance_stars < 1 OR performance_stars > 6);
     DECLARE @is_host_issues INT = (SELECT COUNT(*) FROM fact_wc_match WHERE is_host NOT IN (0,1) OR is_host IS NULL);
     DECLARE @team_exists_issues INT = (SELECT COUNT(DISTINCT fm.team_country_id) FROM fact_wc_match fm LEFT JOIN dim_country dc ON fm.team_country_id = dc.country_id WHERE dc.country_id IS NULL);
-    DECLARE @validation_status VARCHAR(20) = CASE WHEN @population_issues + @gdp_issues + @performance_issues + @is_host_issues + @team_exists_issues > 0 THEN 'FAIL' ELSE 'PASS' END;
+    DECLARE @validation_status VARCHAR(20) = CASE WHEN @population_issues + @gdp_issues + @performance_issues + @is_host_issues + @team_exists_issues + @tournament_year_issue > 0 THEN 'FAIL' ELSE 'PASS' END;
 
     DROP TABLE IF EXISTS validation_summary;
     CREATE TABLE validation_summary (
@@ -118,7 +119,9 @@ BEGIN
     ('GDP Issues', @gdp_issues),
     ('Performance Stars Issues', @performance_issues),
     ('Is Host Issues', @is_host_issues),
-    ('Team Exists Issues', @team_exists_issues);
+    ('Team Exists Issues', @team_exists_issues),
+    ('Tournament in more than on year', @tournament_year_issue),
+    ('Number of different tournaments', @unique_tournament_id);
 
     INSERT INTO etl_golden_logs (table_name, columns, foreign_keys, log_timestamp, status)
     VALUES (
