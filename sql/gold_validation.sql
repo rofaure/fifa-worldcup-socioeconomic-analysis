@@ -17,7 +17,7 @@ BEGIN
     WITH matches_per_tournament AS (
         SELECT
             tournament_id,
-            COUNT(*) AS matches_count
+            COUNT(*)/2 AS matches_count -- since 2 rows per match
         FROM fact_wc_match
         GROUP BY tournament_id
     ),
