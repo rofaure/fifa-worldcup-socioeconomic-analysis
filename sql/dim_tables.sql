@@ -36,6 +36,6 @@ BEGIN
         'year_id, year, country_id, country_name, confederation, tournament_id, tournament_name, num_matches, num_teams',
         'N/A',
         GETDATE(),
-        'SUCCESS'
+        'CREATED'
     );  
 END;

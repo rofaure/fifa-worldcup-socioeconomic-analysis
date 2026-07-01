@@ -44,7 +44,7 @@ BEGIN
         'match_country_id, year_id, tournament_id, host_country_id, team_country_id, goals_scored, goals_conceded, goal_difference, outcome, stage, performance_stars, is_host, population, gdp_per_capita_usd',
         'FK_fact_wc_match_year (year_id -> dim_date), FK_fact_wc_match_tournament (tournament_id -> dim_tournament), FK_fact_wc_match_host_country (host_country_id -> dim_country), FK_fact_wc_match_team_country (team_country_id -> dim_country)',
         GETDATE(),
-        'SUCCESS'
+        'CREATED'
     );
 
 END;
