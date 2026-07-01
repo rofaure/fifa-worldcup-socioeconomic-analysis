@@ -16,3 +16,6 @@ GO
 EXEC usp_create_dim_tables;
 EXEC usp_create_fact_wc_match;
 GO
+
+EXEC sp_validate_gold_layer;
+GO
