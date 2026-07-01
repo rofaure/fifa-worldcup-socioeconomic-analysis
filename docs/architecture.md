@@ -19,7 +19,7 @@
 │                         BRONZE LAYER                                │
 │                       data/bronze/                                  │
 │                                                                     │
-│  bronze_wc_matches.csv     bronze_population.csv  bronze_gdp.csv   │
+│  bronze_wc_matches.csv     bronze_population.csv  bronze_gdp.csv    │
 │  + source_name             + source_name          + source_name     │
 │    "fifa_world_cup"          "API_POP"              "API_GDP"       │
 │  + load_timestamp          + load_timestamp       + load_timestamp  │
@@ -35,36 +35,36 @@
 │                                                                     │
 │  STAGING TABLES (intermediate)                                      │
 │                                                                     │
-│  stg_wc_matches                  stg_population_gdp                │
-│  - filter 1998–2018              - unpivot (year becomes rows)     │
-│  - standardize column names      - filter 1998–2018                │
-│  - fix dtypes                    - filter out non-country rows     │
-│  - handle nulls                  - handle nulls                    │
-│  - join key: country_name+year   - join key: country_name+year     │
-│  - check distinct country names  - check distinct country names    │
+│  stg_wc_matches                  stg_population_gdp                 │
+│  - filter 1998–2018              - unpivot (year becomes rows)      │
+│  - standardize column names      - filter 1998–2018                 │
+│  - fix dtypes                    - filter out non-country rows      │
+│  - handle nulls                  - handle nulls                     │
+│  - join key: country_name+year   - join key: country_name+year      │
+│  - check distinct country names  - check distinct country names     │
 │                                                                     │
 │  SILVER OUTPUTS (cleaned tables)                                    │
 │                                                                     │
-│  silver_wc_matches               silver_socioeconomics             │
-│  - valid_wc_matches.csv          (stg_population + stg_gdp joined  │
-│  - rejected_wc_matches.csv        on country_name + year)          │
-│                                  - valid_socioeconomics.csv        │
-│                                  - rejected_socioeconomics.csv     │
+│  silver_wc_matches               silver_socioeconomics              │
+│  - valid_wc_matches.csv          (stg_population + stg_gdp joined   │
+│  - rejected_wc_matches.csv        on country_name + year)           │
+│                                  - valid_socioeconomics.csv         │
+│                                  - rejected_socioeconomics.csv      │
 │                                                                     │
-│  country_mapping.csv             validation_summary.txt            │
-│  - wc_team_name                  - row counts per source           │
-│  - standardized_country_name     - null counts per column          │
-│  Maps WC team names to World     - rejection_reason counts         │
-│  Bank country names:                                               │
-│  "Ivory Coast"→"Cote d'Ivoire"                                     │
-│  "South Korea"→"Korea, Rep."                                       │
-│  "USA"→"United States"                                             │
-│  "England"→"United Kingdom"                                        │
-│  "Czech Republic"→"Czechia"                                        │
-│  "Serbia and Montenegro"→"Serbia"                                  │
-│  "Trinidad and Tobago"→"Trinidad and Tobago"                       │
+│  country_mapping.csv             validation_summary.txt             │
+│  - wc_team_name                  - row counts per source            │
+│  - standardized_country_name     - null counts per column           │
+│  Maps WC team names to World     - rejection_reason counts          │
+│  Bank country names:                                                │
+│  "Ivory Coast"→"Cote d'Ivoire"                                      │
+│  "South Korea"→"Korea, Rep."                                        │
+│  "USA"→"United States"                                              │
+│  "England"→"United Kingdom"                                         │
+│  "Czech Republic"→"Czechia"                                         │
+│  "Serbia and Montenegro"→"Serbia"                                   │
+│  "Trinidad and Tobago"→"Trinidad and Tobago"                        │
 │                                                                     │
-│  Cleaned, typed, standardized. Reliable join keys. Rejected rows   │
+│  Cleaned, typed, standardized. Reliable join keys. Rejected rows    │
 │  quarantined and documented.                                        │
 └────────────────────────────────┬────────────────────────────────────┘
                                  │
@@ -103,14 +103,14 @@
 │  - capital_city                                                     │
 │                                                                     │
 │  StageStars (column in FactTable)                                   │
-│  Group Stage (eliminated) → 1 ⭐                                    │
+│  Group Stage (eliminated) → 1 ⭐                                   │
 │  Round of 16              → 2 ⭐⭐                                 │
 │  Quarter-final            → 3 ⭐⭐⭐                              │
-│  Semi-final               → 4 ⭐⭐⭐⭐                           │
+│  Semi-final               → 4 ⭐⭐⭐⭐                            │
 │  Runner-up                → 5 ⭐⭐⭐⭐⭐                         │
-│  Winner                   → 6 ⭐⭐⭐⭐⭐⭐                      │
-│                                                                    │
-│  Reporting-ready star schema. Answers all business questions.      │
+│  Winner                   → 6 ⭐⭐⭐⭐⭐⭐                       │
+│                                                                     │
+│  Reporting-ready star schema. Answers all business questions.       │
 └────────────────────────────────┬────────────────────────────────────┘
                                  │
                                  ▼
