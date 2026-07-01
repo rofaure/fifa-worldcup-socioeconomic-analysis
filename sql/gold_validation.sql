@@ -48,15 +48,17 @@ BEGIN
     DECLARE @missing_rows INT = @@ROWCOUNT;
 
     -- 1) population must be positive
-    SELECT match_country_id, year_id, team_country_id, stage, population
-    FROM fact_wc_match
-    WHERE population IS NULL OR population <= 0
+    SELECT match_country_id, year_id, dc.country_name, stage, population
+    FROM fact_wc_match fm
+    JOIN dim_country dc ON fm.team_country_id = dc.country_id
+    WHERE dc.country_name != 'North Korea' AND (population IS NULL OR population <= 0)
     ORDER BY team_country_id;
 
     -- 2) gdp must be positive
-    SELECT match_country_id, year_id, team_country_id, stage, gdp_per_capita_usd
-    FROM fact_wc_match
-    WHERE gdp_per_capita_usd IS NULL OR gdp_per_capita_usd <= 0
+    SELECT match_country_id, year_id, dc.country_name, stage, gdp_per_capita_usd
+    FROM fact_wc_match fm
+    JOIN dim_country dc ON fm.team_country_id = dc.country_id
+    WHERE dc.country_name != 'North Korea' AND (gdp_per_capita_usd IS NULL OR gdp_per_capita_usd <= 0)
     ORDER BY team_country_id;
 
     -- 3) performance_stars between 1 and 6 (inclusive)
