@@ -76,31 +76,27 @@
 │  FactTable                                                          │
 │  Grain: 1 row = 1 team × 1 match                                    │
 │  - match_country_id (PK)                                            │
-│  - date_id (FK → DimDate)                                           │
-│  - tournament_id (FK → DimTournament)                               │
-│  - country_id (FK → DimCountry)                                     │
+│  - year_id (FK → dim_date)                                          │
+│  - tournament_id (FK → dim_tournament)                              │
+│  - host_country_id (FK → dim_country)                               │
+│  - team_country_id (FK → dim_country)                               │
 │  - goals_scored, goals_conceded, goal_difference                    │
-│  - win_flag, draw_flag, loss_flag, advanced_flag                    │
-│  - stage, role (home/away), result                                  │
-│  - performance_stars (1–6, see StageStars below)                    │
-│  - match_city, stadium                                              │
+│  - outcome                                                          │
+│  - stage                                                            │
+│  - performance_stars (1–6, see StageStars below)                    │                                      
 │  - is_host (1/0 — team is host country of tournament)               │
 │  - population, gdp_per_capita_usd (from silver_socioeconomics)      │
 │                                                                     │
-│  DimDate                         DimTournament                      │
-│  - date_id (PK)                  - tournament_id (PK)               │
-│  - year                          - year                             │
-│  - decade                        - edition_name                     │
-│  - tournament_year (boolean)     - host_country                     │
-│                                  - nb_teams                         │
-│                                  - nb_matches                       │
+│  dim_date                         dim_tournament                    │
+│  - year_id (PK)                  - tournament_id (PK)               │
+│  - year                          - tournament_name                  │
+│                                  - num_matches                      │
+│                                  - num_teams                        │
 │                                                                     │
-│  DimLocation                                                        │
-│  - location_id (PK)                                                 │ 
+│  dim_country                                                        │
+│  - country_id (PK)                                                  │ 
 │  - country_name                                                     │
-│  - confederation (UEFA/CONMEBOL/etc.)                               │
-│  - region                                                           │
-│  - capital_city                                                     │
+│  - confederation (UEFA/CONMEBOL/etc.)                               │                                      
 │                                                                     │
 │  StageStars (column in FactTable)                                   │
 │  Group Stage (eliminated) → 1 ⭐                                   │
@@ -121,7 +117,7 @@
 │  Page 1: Tournament Performance by Country                          │
 │  - Stage reached per country per edition                            │
 │  - Top performers by performance_stars                              │
-│  - Filters: year, confederation, stage                              │
+│  - Filters: year                                                    │
 │                                                                     │
 │  Page 2: Socioeconomic vs Performance                               │
 │  - GDP per capita vs performance_stars (scatter)                    │
